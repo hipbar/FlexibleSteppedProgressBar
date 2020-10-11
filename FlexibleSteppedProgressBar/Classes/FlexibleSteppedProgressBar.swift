@@ -531,7 +531,7 @@ import CoreGraphics
             
             textLayer.sizeWidthToFit()
             
-            textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2 + (i > 0 ? 32 : 24), y: centerPoint.y - textLayer.bounds.height/2 + _progressRadius + textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height)
+            textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2 + (i > 0 ? 32 : 24), y: centerPoint.y - textLayer.bounds.height/2 + _progressRadius + textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height + 16)
         }
     }
     
